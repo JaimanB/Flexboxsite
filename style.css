@@ -87,6 +87,7 @@ img {
 
 .Main{
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .Main h1{
@@ -109,7 +110,7 @@ img {
     align-items: center;
 }
 
-.text{
+.text,.main{
     width: 200px;
     display: flex;
     justify-content: space-around;
@@ -124,6 +125,30 @@ img {
     
 }
 
+/* Quote */
 
+.quote{
+    background: #E5E7EB;
+    color: #1F2937;
+    display:flex;
+    flex-direction: column;
+    padding: 100px;
+    padding-bottom: 50px;
+}
 
+.quote p{
+    align-items: center;
+    font-style: italic;
+    font-size:24px;
+    font-weight: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote b{
+    text-align: right;
+    margin-right: 20px;
+    font-size: 18px;
+}
 
