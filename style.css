@@ -51,6 +51,7 @@ body {
 img { 
     width: 250px;
     height: auto;
+
 }
 
 .left-text{
@@ -132,8 +133,8 @@ img {
     color: #1F2937;
     display:flex;
     flex-direction: column;
-    padding: 100px;
-    padding-bottom: 50px;
+    padding: 80px;
+    padding-bottom: 60px;
 }
 
 .quote p{
@@ -152,3 +153,33 @@ img {
     font-size: 18px;
 }
 
+/* Call to action */
+
+.CTA{
+    background-color: #3882F6;
+    margin: 50px 50px;
+    padding: 30px 30px;
+    display: flex;
+    border-radius: 8px;
+    text-align: left;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.CTA .text{
+    flex-direction: column;
+    color:#F9FAF8;
+    width: 500px;
+}
+
+.CTA button {
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 6px;
+    width: 200px;
+    height: 60px;
+}
