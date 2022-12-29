@@ -153,8 +153,6 @@ img {
     font-size: 18px;
 }
 
-/* Call to action */
-
 .CTA{
     background-color: #3882F6;
     margin: 50px 50px;
@@ -173,7 +171,7 @@ img {
     width: 500px;
 }
 
-.CTA button {
+.CTA button{
     color: #F9FAF8;
     border-color: #F9FAF8;
     background-color: #3882F6;
@@ -182,4 +180,18 @@ img {
     border-radius: 6px;
     width: 200px;
     height: 60px;
+}
+
+/* Copyright */
+
+.copyright{
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 40px;
+    font-size: 12px;
+}
+
+.copyright p{
+    text-align: center;
+    justify-content: center;
 }
